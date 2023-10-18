@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>reloc-html</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<script src="https://telegram.org/js/telegram-web-app.js"></script>
+		<script defer="defer" src="assets/vendor.js"></script>
+		<script defer="defer" src="assets/app.js"></script>
+		<link href="styles.css" rel="stylesheet">
+		<link href="app.css" rel="stylesheet">
+	</head>
+
+	<body class="body">
+		<div class="wrapper">
+			<main class="main">
+				<div class="catalog-page">
+					<section class="section section--first">
+						<div class="container">
+							<div class="catalog-page__top">
+								<h1 class="section__title">Каталог</h1>
+								<div class="catalog-page__buttons">
+									<div class="catalog-page__item">
+										<div class="catalog-page__button"><svg class="catalog-page__svg catalog-page__search" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3535 12.0484C15.2345 9.59309 15.0449 6.07611 12.7847 3.83486C10.3176 1.38838 6.31751 1.38838 3.85036 3.83486C1.38321 6.28133 1.38321 10.2479 3.85036 12.6943C6.11084 14.9359 9.65814 15.1236 12.1342 13.2576L16.6646 17.7498L16.7528 17.8262C17.0905 18.0811 17.5745 18.0556 17.8829 17.7498C18.2193 17.4162 18.2193 16.8753 17.8829 16.5417L13.3535 12.0484ZM4.66258 4.64026C6.68115 2.6386 9.95391 2.6386 11.9725 4.64026C13.9911 6.64192 13.9911 9.88726 11.9725 11.8889C9.95391 13.8906 6.68115 13.8906 4.66258 11.8889C2.644 9.88726 2.644 6.64192 4.66258 4.64026Z" fill="#3C3C43" fill-opacity="0.6"></path>
+											</svg></div>
+									</div>
+									<div class="catalog-page__item">
+										<div class="catalog-page__button"><svg class="catalog-page__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.0003 5.03333C13.5585 5.03333 13.2003 5.39151 13.2003 5.83333C13.2003 6.27516 13.5585 6.63333 14.0003 6.63333V5.03333ZM23.3337 6.63333C23.7755 6.63333 24.1337 6.27516 24.1337 5.83333C24.1337 5.39151 23.7755 5.03333 23.3337 5.03333V6.63333ZM14.0003 21.3667C13.5585 21.3667 13.2003 21.7248 13.2003 22.1667C13.2003 22.6085 13.5585 22.9667 14.0003 22.9667V21.3667ZM23.3337 22.9667C23.7755 22.9667 24.1337 22.6085 24.1337 22.1667C24.1337 21.7248 23.7755 21.3667 23.3337 21.3667V22.9667ZM14.0003 14.8C14.4422 14.8 14.8003 14.4418 14.8003 14C14.8003 13.5582 14.4422 13.2 14.0003 13.2V14.8ZM4.66699 13.2C4.22516 13.2 3.86699 13.5582 3.86699 14C3.86699 14.4418 4.22516 14.8 4.66699 14.8L4.66699 13.2ZM14.0003 6.63333L23.3337 6.63333V5.03333L14.0003 5.03333V6.63333ZM14.0003 22.9667H23.3337V21.3667H14.0003V22.9667ZM14.0003 13.2L4.66699 13.2L4.66699 14.8L14.0003 14.8V13.2ZM3.86699 5.83333C3.86699 7.56383 5.26983 8.96667 7.00033 8.96667V7.36667C6.15349 7.36667 5.46699 6.68017 5.46699 5.83333H3.86699ZM7.00033 8.96667C8.73082 8.96667 10.1337 7.56383 10.1337 5.83333H8.53366C8.53366 6.68017 7.84716 7.36667 7.00033 7.36667V8.96667ZM10.1337 5.83333C10.1337 4.10284 8.73082 2.7 7.00033 2.7V4.3C7.84716 4.3 8.53366 4.9865 8.53366 5.83333H10.1337ZM7.00033 2.7C5.26983 2.7 3.86699 4.10284 3.86699 5.83333H5.46699C5.46699 4.9865 6.15349 4.3 7.00033 4.3V2.7ZM3.86699 22.1667C3.86699 23.8972 5.26983 25.3 7.00033 25.3V23.7C6.15349 23.7 5.46699 23.0135 5.46699 22.1667H3.86699ZM7.00033 25.3C8.73082 25.3 10.1337 23.8972 10.1337 22.1667H8.53366C8.53366 23.0135 7.84716 23.7 7.00033 23.7V25.3ZM10.1337 22.1667C10.1337 20.4362 8.73082 19.0333 7.00033 19.0333V20.6333C7.84716 20.6333 8.53366 21.3198 8.53366 22.1667H10.1337ZM7.00033 19.0333C5.26983 19.0333 3.86699 20.4362 3.86699 22.1667H5.46699C5.46699 21.3198 6.15349 20.6333 7.00033 20.6333V19.0333ZM24.1337 14C24.1337 12.2695 22.7308 10.8667 21.0003 10.8667L21.0003 12.4667C21.8472 12.4667 22.5337 13.1532 22.5337 14H24.1337ZM21.0003 10.8667C19.2698 10.8667 17.867 12.2695 17.867 14H19.467C19.467 13.1532 20.1535 12.4667 21.0003 12.4667L21.0003 10.8667ZM17.867 14C17.867 15.7305 19.2698 17.1333 21.0003 17.1333L21.0003 15.5333C20.1535 15.5333 19.467 14.8468 19.467 14H17.867ZM21.0003 17.1333C22.7308 17.1333 24.1337 15.7305 24.1337 14H22.5337C22.5337 14.8468 21.8472 15.5333 21.0003 15.5333L21.0003 17.1333Z" fill="#007AFF"></path>
+											</svg></div>
+									</div>
+								</div>
+							</div>
+							<div class="section__inner">
+								<div class="catalog-page__grid"><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a><a class="card card--responsive" href="#">
+										<div class="card__img">
+											<picture class="picture">
+												<source type="image/webp" srcset="assets/images/card-default.webp"><img class="picture__img" src="assets/images/card-default.jpg">
+											</picture>
+										</div>
+										<div class="card__price">5 995 ₽</div>
+										<div class="card__name">Elden Ring</div>
+										<div class="label">Standard Edition</div>
+									</a></div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<div class="grid-test">
+				<div class="container">
+					<div class="grid-test__row">
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+						<div class="grid-test__col"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
