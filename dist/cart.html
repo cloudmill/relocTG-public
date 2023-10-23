@@ -134,7 +134,42 @@
 							</div>
 						</div>
 					</section>
-					<section class="section cart-page__section"></section>
+					<section class="section cart-page__order" data-tabs="">
+						<div class="container">
+							<div class="cart-page__order-heading">Куда оформить заказ?</div>
+							<div class="tabs">
+								<div class="tabs__item active" data-tabs-item="">На свой аккаунт</div>
+								<div class="tabs__item" data-tabs-item="">У меня нет аккаунта</div>
+							</div>
+							<div class="cart-page__order-inner">
+								<div class="tabs-block active" data-tabs-block="">
+									<div class="label">У меня есть свой турецкий аккаунт</div>
+									<form class="cart-page__order-form" action="/">
+										<div class="cart-page__order-item"><input class="input" type="email" placeholder="Логин (E-mail)"></div>
+										<div class="cart-page__order-item"><input class="input" type="password" placeholder="Пароль"></div>
+										<div class="cart-page__order-item"><input class="input" type="email" placeholder="E-mail для чека"></div>
+										<div class="cart-page__order-item">
+											<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" name="qwe" id="check">
+													<div class="checkbox__box"><svg class="checkbox__svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+															<rect width="22" height="22" rx="11" fill="#007AFF"></rect>
+															<path d="M6.75 12L9.75 15.5L15.25 7.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+														</svg></div>
+													<div class="checkbox__text">Идентичен логину</div>
+												</label></div>
+										</div>
+									</form>
+								</div>
+								<div class="tabs-block" data-tabs-block="">
+									<div class="cart-page__order-label">
+										<div class="label">У меня нет турецкого аккаунта и мне нужен нужен новый</div>
+									</div>
+									<form class="cart-page__order-form" action="/">
+										<div class="cart-page__order-item"><input class="input" type="email" placeholder="E-mail для чека"></div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
 			</main>
 			<div class="grid-test">
