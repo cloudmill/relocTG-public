@@ -139,18 +139,26 @@
 					<section class="section section--md cart-page__order" data-tabs="">
 						<div class="container">
 							<div class="cart-page__order-heading">Куда оформить заказ?</div>
-							<div class="tabs" data-cart-block="">
+							<div class="cart-page__order-inner" data-clear-parent="">
+								<div class="cart-page__text">Мы запомнили данные с прошлого заказа</div>
+								<div class="cart-page__button" data-cart-clear="">
+									<div class="codes-page__button white">
+										<div class="codes-page__button-container">Очистить данные</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs cart-hidden" data-cart-block="">
 								<div class="tabs__item active" data-tabs-item="">На свой аккаунт</div>
 								<div class="tabs__item" data-tabs-item="">У меня нет аккаунта</div>
 							</div>
 							<div class="cart-page__order-inner">
 								<div class="tabs-block active" data-tabs-block="">
-									<div class="label" data-cart-block="">У меня есть свой турецкий аккаунт</div>
+									<div class="label cart-hidden" data-cart-block="">У меня есть свой турецкий аккаунт</div>
 									<form class="cart-page__order-form" action="/" data-cart-form="">
-										<div class="cart-page__order-heading" data-cart-block="">Данные аккаунта</div>
-										<div class="cart-page__order-item"><input class="input" type="email" placeholder="Логин (E-mail)" required data-cart-email=""></div>
-										<div class="cart-page__order-item"><input class="input" placeholder="Пароль" required></div>
-										<div class="cart-page__order-item" data-cart-block="">
+										<div class="cart-page__order-heading cart-hidden" data-cart-block="">Данные аккаунта</div>
+										<div class="cart-page__order-item"><input class="input" type="email" placeholder="Логин (E-mail)" required data-cart-email="" value="ObukhovIvan@gmail.com"></div>
+										<div class="cart-page__order-item"><input class="input" placeholder="Пароль" required value="Reloc007"></div>
+										<div class="cart-page__order-item cart-hidden" data-cart-block="">
 											<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" name="qwe" id="check" data-cart-checkbox="">
 													<div class="checkbox__box"><svg class="checkbox__svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
 															<rect width="22" height="22" rx="11" fill="url(#paint0_linear_402_3136)"></rect>
@@ -165,9 +173,9 @@
 													<div class="checkbox__text">E-mail для чека идентичен логину</div>
 												</label></div>
 										</div>
-										<div class="cart-page__order-item" data-cart-block=""><input class="input" type="email" placeholder="E-mail для чека" required data-cart-check=""></div>
-										<div class="cart-page__order-item">
-											<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" name="remember" required checked="checked">
+										<div class="cart-page__order-item"><input class="input" type="email" placeholder="E-mail для чека" required data-cart-check="" value="ObukhovIvan@gmail.com"></div>
+										<div class="cart-page__order-item cart-hidden" data-cart-block="">
+											<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" name="remember" checked="checked">
 													<div class="checkbox__box"><svg class="checkbox__svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
 															<rect width="22" height="22" rx="11" fill="url(#paint0_linear_402_3136)"></rect>
 															<path d="M6.75 12L9.75 15.5L15.25 7.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -225,10 +233,6 @@
 					</section>
 					<section class="section section--first cart-page__order">
 						<div class="container">
-							<div class="cart-page__inner">
-								<div class="cart-page__text">Промокод</div>
-								<div class="cart-page__inner-discount">-60 ₽</div>
-							</div>
 							<div class="cart-page__inner">
 								<div class="cart-page__order-heading alt">Итого</div>
 								<div class="section__title cart-page__price">270 ₽</div>
