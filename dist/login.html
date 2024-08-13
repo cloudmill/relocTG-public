@@ -145,7 +145,7 @@
 						<section class="auth-page__section">
 							<div class="auth-page__bg">
 								<picture class="picture">
-									<source type="image/webp" srcset="assets/images/auth-bg.webp"><img class="picture__img" src="assets/images/auth-bg.jpg" loading="lazy">
+									<source type="image/webp" srcset="assets/images/login-bg.webp"><img class="picture__img" src="assets/images/login-bg.jpg" loading="lazy">
 								</picture>
 							</div>
 							<div class="auth-page__content">
@@ -188,16 +188,46 @@
 											</lineargradient>
 										</defs>
 									</svg></div>
-								<h1 class="auth-page__title">Авторизация</h1>
-								<p class="auth-page__text">Пожалуйста, войдите на сайт через Телеграм.</p>
-								<p class="auth-page__caption">Мы выбрали такую авторизацию, потому что она удобнее и современнее, чем почта.</p>
-								<div class="auth-page__wrapper"><a class="auth-page__btn" href="#">
+								<h1 class="auth-page__title">Вход или регистрация</h1>
+								<p class="auth-page__text">Авторизуйтесь на сайте, чтобы мы могли сохранять ваши покупки и создавать персональную ленту предложений.</p>
+								<div class="auth-page__wrapper"><a class="auth-page__btn blue" href="#">
 										<div class="auth-page__icon"><svg class="auth-page__svg" width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M5.48092 10.8532L15.0116 6.86394C15.9524 6.44839 19.1429 5.11865 19.1429 5.11865C19.1429 5.11865 20.6154 4.53689 20.4927 5.94974C20.4518 6.5315 20.1246 8.56767 19.7974 10.7701L18.7748 17.2941C18.7748 17.2941 18.693 18.2498 17.9976 18.4161C17.3022 18.5823 16.1569 17.8343 15.9524 17.6681C15.7888 17.5434 12.8846 15.6735 11.8211 14.7593C11.5347 14.5099 11.2075 14.0113 11.862 13.4295C13.3345 12.0582 15.0934 10.3545 16.1569 9.27409C16.6477 8.77544 17.1386 7.61192 15.0934 9.02477L9.32591 12.9724C9.32591 12.9724 8.67144 13.388 7.44432 13.014C6.21719 12.64 4.78555 12.1413 4.78555 12.1413C4.78555 12.1413 3.80385 11.518 5.48092 10.8532Z" fill="white"></path>
 											</svg></div>
 										<div class="auth-page__tg">Войти через Телеграм</div>
-									</a></div>
+									</a>
+									<div class="auth-page__container">
+										<div class="auth-page__button" data-login-show="">
+											<div class="button button--outline">У меня нет Телеграм</div>
+										</div>
+										<div class="auth-page__inner hidden" data-login-container="">
+											<div class="auth-page__item"><a class="auth-page__btn white" href="#">
+													<div class="auth-page__icon"><svg class="auth-page__svg" width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M22.1 12.2273C22.1 11.5183 22.0364 10.8364 21.9182 10.1819H12.5V14.0501H17.8818C17.65 15.3001 16.9455 16.3592 15.8864 17.0683V19.5774H19.1182C21.0091 17.8364 22.1 15.2728 22.1 12.2273Z" fill="#4285F4"></path>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M12.4996 21.9999C15.1996 21.9999 17.4633 21.1045 19.1178 19.5772L15.886 17.0681C14.9905 17.6681 13.8451 18.0226 12.4996 18.0226C9.89506 18.0226 7.69051 16.2635 6.90415 13.8999H3.56323V16.4908C5.20869 19.759 8.59052 21.9999 12.4996 21.9999Z" fill="#34A853"></path>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M6.90455 13.9C6.70455 13.3 6.59092 12.659 6.59092 12C6.59092 11.3409 6.70455 10.6999 6.90455 10.0999V7.50903H3.56364C2.88636 8.85904 2.5 10.3863 2.5 12C2.5 13.6136 2.88636 15.1409 3.56364 16.4909L6.90455 13.9Z" fill="#FBBC05"></path>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M12.4996 5.97728C13.9678 5.97728 15.286 6.48183 16.3224 7.47274L19.1905 4.60455C17.4587 2.99091 15.1951 2 12.4996 2C8.59052 2 5.20869 4.24091 3.56323 7.5091L6.90415 10.1C7.69051 7.73638 9.89506 5.97728 12.4996 5.97728Z" fill="#EA4335"></path>
+														</svg></div>
+													<div class="auth-page__tg">Войти через Google</div>
+												</a></div>
+											<div class="auth-page__item"><a class="auth-page__btn white" href="#">
+													<div class="auth-page__icon"><svg class="auth-page__svg" width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<g clip-path="url(#clip0_1405_4774)">
+																<path d="M20.4591 9.11953C20.338 9.21351 18.1994 10.4186 18.1994 13.098C18.1994 16.1973 20.9206 17.2937 21.0021 17.3209C20.9896 17.3877 20.5698 18.8225 19.5673 20.2844C18.6735 21.5709 17.7399 22.8553 16.3198 22.8553C14.8996 22.8553 14.5342 22.0303 12.8947 22.0303C11.2971 22.0303 10.729 22.8824 9.42998 22.8824C8.13096 22.8824 7.22457 21.692 6.18243 20.2301C4.97531 18.5134 4 15.8464 4 13.3152C4 9.25528 6.6398 7.10209 9.23784 7.10209C10.6183 7.10209 11.769 8.00848 12.6358 8.00848C13.4607 8.00848 14.7472 7.04779 16.3177 7.04779C16.9129 7.04779 19.0515 7.10209 20.4591 9.11953ZM15.5721 5.32899C16.2216 4.55835 16.6811 3.48907 16.6811 2.41978C16.6811 2.2715 16.6686 2.12113 16.6414 2C15.5846 2.03968 14.3274 2.70381 13.5693 3.58305C12.9741 4.25971 12.4186 5.32899 12.4186 6.4129C12.4186 6.5758 12.4457 6.7387 12.4582 6.79091C12.5251 6.80344 12.6337 6.81806 12.7423 6.81806C13.6904 6.81806 14.8829 6.18317 15.5721 5.32899Z" fill="black"></path>
+															</g>
+															<defs>
+																<clippath id="clip0_1405_4774">
+																	<rect width="17" height="20.8845" fill="white" transform="translate(4 2)"></rect>
+																</clippath>
+															</defs>
+														</svg></div>
+													<div class="auth-page__tg">Войти через Apple</div>
+												</a></div>
+										</div>
+									</div>
+								</div>
 							</div>
+							<div class="auth-page__policy">Продолжая, я соглашаюсь с <a href="#">Пользовательским соглашением</a> и <a href="#">Политикой конфиденциальности</a></div>
 						</section>
 					</div>
 					<div class="button-wrapper" data-button-container="">
